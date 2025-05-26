@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-image {https://images.app.goo.gl/z8QYaSYSG94GkVY5A
+    background-color: #e6f2f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    max-width: 250px;
+    height: auto;
+}
+
+.form-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.form-section h2 {
+    color: #00a0c6;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.consimtamant {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.consimtamant label {
+    font-weight: normal;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1b3c7a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #142d5c;
+}
